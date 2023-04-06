@@ -1,0 +1,20 @@
+{
+  "projectId": "gcp project id",
+  "secrets": {
+    "type": "service_account",
+    "project_id": "gcp project id",
+    "private_key_id": "gcp private key id",
+    "private_key": "gcp key",
+    "client_email": "gcp client email",
+    "client_id": "gcp client id",
+    "auth_uri": "gcp auth uri",
+    "token_uri": "gcp token uri",
+    "auth_provider_x509_cert_url": "gcp provier x509 cer url",
+    "client_x509_cert_url": "gcp client x509 cert url"
+  },
+  "gcloudBucketName": "gcp bucket name",
+  "absoluteUploadFilePath": "/absolute/path/to/file.txt",
+  "uploadFileSurname": "some surname ( not mandatory )",
+  "at": "defines execution routine. ex: 0 3 * * *",
+  "chunkSize": "defines the chunk size: 32, 64, 128"
+}
